@@ -3,4 +3,8 @@ class ApplicationController < ActionController::Base
   def hello
   	render html: "hello world!"
   end
+
+  def hello2
+  	render html: "hello world 2!"
+  end
 end
