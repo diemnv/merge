@@ -19,4 +19,16 @@ class ApplicationController < ActionController::Base
   def hello5
   	render html: "hello world 4!"
   end
+
+  def hello6
+  	render html: "hello world 6!"
+  end
+
+  def hello7
+  	render html: "hello world 7!"
+  end
+
+  def hello8
+  	render html: "hello world 8!"
+  end  
 end
